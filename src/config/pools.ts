@@ -26,6 +26,14 @@ export const POOLS: PoolConfig[] = [
   {
     algorithm: 'SHA-256',
     coin: 'BTC',
+    name: 'BTC PoW Lab – Hybrid Solo',
+    host: 'stratum.btcpowlab-pool.com',
+    port: 3333,
+    password: 'x',
+  },
+  {
+    algorithm: 'SHA-256',
+    coin: 'BTC',
     name: 'solo.ckpool.org – BTC',
     host: 'solo.ckpool.org',
     port: 3333,
